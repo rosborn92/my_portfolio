@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/rosborn92/my_portfolio/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/rosborn92/my_portfolio/static/js/main.160a8afb.chunk.js",
-    "main.js.map": "/rosborn92/my_portfolio/static/js/main.160a8afb.chunk.js.map",
-    "runtime-main.js": "/rosborn92/my_portfolio/static/js/runtime-main.5e2c08c2.js",
-    "runtime-main.js.map": "/rosborn92/my_portfolio/static/js/runtime-main.5e2c08c2.js.map",
-    "static/js/2.bfa75db8.chunk.js": "/rosborn92/my_portfolio/static/js/2.bfa75db8.chunk.js",
-    "static/js/2.bfa75db8.chunk.js.map": "/rosborn92/my_portfolio/static/js/2.bfa75db8.chunk.js.map",
-    "index.html": "/rosborn92/my_portfolio/index.html",
-    "precache-manifest.bcf6d7f5ced47c15f5d502c01df360b8.js": "/rosborn92/my_portfolio/precache-manifest.bcf6d7f5ced47c15f5d502c01df360b8.js",
-    "service-worker.js": "/rosborn92/my_portfolio/service-worker.js",
-    "static/css/main.5ecd60fb.chunk.css.map": "/rosborn92/my_portfolio/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.bfa75db8.chunk.js.LICENSE.txt": "/rosborn92/my_portfolio/static/js/2.bfa75db8.chunk.js.LICENSE.txt"
+    "main.css": "/my_portfolio/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/my_portfolio/static/js/main.576f3314.chunk.js",
+    "main.js.map": "/my_portfolio/static/js/main.576f3314.chunk.js.map",
+    "runtime-main.js": "/my_portfolio/static/js/runtime-main.73ea3871.js",
+    "runtime-main.js.map": "/my_portfolio/static/js/runtime-main.73ea3871.js.map",
+    "static/js/2.bfa75db8.chunk.js": "/my_portfolio/static/js/2.bfa75db8.chunk.js",
+    "static/js/2.bfa75db8.chunk.js.map": "/my_portfolio/static/js/2.bfa75db8.chunk.js.map",
+    "index.html": "/my_portfolio/index.html",
+    "precache-manifest.57bd94df17179da873cfa4aa1c84e7e5.js": "/my_portfolio/precache-manifest.57bd94df17179da873cfa4aa1c84e7e5.js",
+    "service-worker.js": "/my_portfolio/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/my_portfolio/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.bfa75db8.chunk.js.LICENSE.txt": "/my_portfolio/static/js/2.bfa75db8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.5e2c08c2.js",
+    "static/js/runtime-main.73ea3871.js",
     "static/js/2.bfa75db8.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.160a8afb.chunk.js"
+    "static/js/main.576f3314.chunk.js"
   ]
 }
