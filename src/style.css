@@ -1,35 +1,190 @@
+html, body {
+  height: 100vh;
+  overflow: hidden;
+}
+
 .skills {
-  max-width: 950px;
-  margin: auto;
+  max-width: 1250px;
+}
+
+.App {
+  background-color: slategray;
+  /* padding: 10vw; */
+  scroll-snap-type: y mandatory;
+  scroll-snap-type: mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+  scroll-snap-points-y: repeat(100vh);
 }
 
 #icons {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin: 3em 0;
 }
 
-p {
+h2 {
+  margin: 0 0 1em;
+  font-weight: 500;
+  font-size: 3em;
+}
+#projects h2 {
+  width: 50%;
+  padding-left: 3vw;
+  background-color: slategray;
+  color: gainsboro;
+  line-height: 1.5em;
+  text-align: left;
+  margin: 1em 0;
+  margin-left: 50%;
+}
+#toolbox h2 {
+  border: 15px solid slategray;
+  color: slategray;
+  width: fit-content;
+  padding: 1em;
+  margin: 0 auto -15px;
+  border-radius: 8px;
+}
+#firstH {
+  background-color: slategray;
+  color: gainsboro;
+  padding-left: 3vw;
+  text-align: left;
+  margin: 0 0 1em;
+  width: 105%;
+  line-height: 1.5em;
+}
+#secondH {
+  background-color: slategray;
+  padding-right: 3vw;
+  color: gainsboro;  text-align: right;
+  margin: 0 0 1em;
+  margin-left: -5vw;
+  width: 70%;
+  line-height: 1.5em;
+}
+#contact .pgBody {
+  background-color: slategray;
+  height: 50vw;
+  width: 60vw;
+  max-width: 950px;
+  max-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  border-radius: 50%;
+}
+.nav-link {
   font-size: 1.2em;
 }
 
+.contactH {
+  width: 70%;
+  color: gainsboro;
+  text-align: right;
+  padding-bottom: 1vh;
+  margin-bottom: 5vh;
+  border-bottom: 4px solid gainsboro;
+}
+#contact p {
+  padding: 0 30px;
+  color: gainsboro;
+  font-size: 1.3em;
+}
+#resume {
+  color: gainsboro;
+  margin-right: 40px;
+  border: 1px solid gainsboro;
+  border-radius: 6px;
+  padding: .1em .2em;
+}
+#resume:hover {
+  background-color: gainsboro;
+  color: #008cba;
+  border: 1px solid #008cba;
+}
+.linkone {
+  background-color: gainsboro;
+  width: 40px;
+  margin-right: 40px;
+  border-radius: 50%;
+}
+.linkone:hover, .linktwo:hover {
+  border: 1px solid #008cba;
+}
+.linktwo {
+  background-color: gainsboro;
+  width: 40px;
+  border-radius: 5px;
+}
+p {
+  font-size: 1.2em;
+}
+.page {
+  width:100vw;
+  padding: 5vw;
+  min-height: 100vh;
+  scroll-behavior: auto;
+  scroll-snap-align: start;
+  display: flex;
+  overflow-y: auto;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+#contact {
+  background-color: gainsboro;
+}
+#home {
+  background-color: slategray;
+  /* margin-top: 15vw; */
+}
+#toolbox {
+  background-color: gainsboro;
+  /* margin-top: 15vw; */
+}
+.pgBody {
+  background-color: gainsboro;
+}
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+.bodyCol {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+#profile img {
+  padding: 0 1em 1em;
+}
 .row {
   align-items: center;
 }
-
+.toolP {
+  color: gainsboro;
+  font-weight: 500;
+  margin: .5em .1em;
+  font-size: 1.5em;
+}
 #profile {
   display: flex;
   flex-direction: column;
   float: right;
   text-align: center;
-  width: fit-content;
-  margin: 5px 0 5px 10px;
+  width: 30%;
+  margin: 5px 0 5px 30px;
   align-items: center;
 }
 
 #homeDiv {
-  max-width: 950px;
-  margin: 1em auto;
+  max-width: 1250px;
+  margin: 5vw auto;
+  background-color: gainsboro;
+  padding: 3vw;
 }
 
 #slider {
@@ -42,58 +197,11 @@ p {
   align-items: center;
   display: flex;
 }
-.slide {
-  width: 100%;
-  height: 100%;
-  min-width: 100%;
-  position: relative;
-}
-.leftCol {
-    width: 50%;
-}
 
-.rightCol {
-    width: 50%;
-}
-
-#left {
-  left: 0;
-  position: absolute;
-  top: 50%;
-  /* display: block; */
-  color: #111;
-  cursor: pointer;
-  opacity: .75;
-  transform: translateY(-50%);
-}
-
-#right {
-  right: 0;
-  position: absolute;
-  top: 50%;
-  /* display: block; */
-  color: #111;
-  cursor: pointer;
-  opacity: .75;
-  transform: translateY(-50%);
-}
-
-.arrowButton {
-  transition: opacity .15s cubic-bezier(.4, 0, 1, 1);
-
-  &:focus {
-    outline: 0;
-  }
-
-  &:hover {
-    opacity: .5;
-  }
-
-  &--left {
-    left: 0;
-  }
-
-  &--right {
-    right: 0;
-  }
+#toolbox .pgBody {
+  border-radius: 20px;
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 4vw;
+  background-color: slategray;
 }

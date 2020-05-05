@@ -20,11 +20,25 @@ import bikeIcon from "./bikeIcon.png";
 import surfIcon from "./surfIcon.png";
 import tennisIcon from "./tennisIcon.png";
 import snowboardIcon from "./snowboardIcon.png";
-import hikeIcon from "./hikeIcon.jpeg";
+import hikeIcon from "./hikeIcon.png";
+import flux from "./flux.png";
+import heroku from "./heroku.png";
+import materialDesign from "./materialdesign.png";
+import mongo from "./mongo.png";
+import node from "./node.png";
+import gulp from "./gulp.png";
+import eslint from "./eslint.png";
 
 export {
   bootstrap,
   css,
+  flux,
+  heroku,
+  materialDesign,
+  mongo,
+  node,
+  gulp,
+  eslint,
   gitHubIcon,
   html,
   humanKind,
