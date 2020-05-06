@@ -6,7 +6,9 @@ html, body {
 .skills {
   max-width: 1250px;
 }
-
+.linkImg {
+  width: 40px;
+}
 .App {
   background-color: slategray;
   /* padding: 10vw; */

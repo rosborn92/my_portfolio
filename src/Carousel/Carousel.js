@@ -113,7 +113,7 @@ class MyCarousel extends React.Component {
                     Jest || Enzyme
                   </h6>
                   <p className="">
-                    I worked on a this project for client La Jolla Playhouse to
+                    I worked on this project for client La Jolla Playhouse to
                     build a scheduling and logistics web application that
                     tracked clients, employees, and other relevant information
                     about each of their Pop Tour performances. I was the head

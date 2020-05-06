@@ -59,21 +59,6 @@ class Home extends React.Component {
               <Image width={290} height={370} src={rob} alt="Profile Picture" />
               <p style={{fontSize: "2em"}}> Rob Osborn </p>
               <p>--full stack software developer--</p>
-              <div className="d-flex justify-content-center">
-                <a
-                  target="_blank"
-                  href="https://github.com/rosborn92"
-                  className="mr-4"
-                >
-                  <img src={gitHubIcon} style={{width: "35px"}} alt="" />
-                </a>
-                <a
-                  target="_blank"
-                  href="https://www.linkedin.com/in/rob-osborn/"
-                >
-                  <img src={linkedin} style={{width: "35px"}} alt="" />
-                </a>
-              </div>
             </div>
           </div>
           <div id="icons">
